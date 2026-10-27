@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node --env-file=.env bolt.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^5.0.0",
+    "todo": "./todo",
+    "undici": "^8.10.0"
+  }
+}
